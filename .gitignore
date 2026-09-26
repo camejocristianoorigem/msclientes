@@ -1,0 +1,29 @@
+# Caches de Python e Testes
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ambientes Virtuais
+venv/
+.venv/
+env/
+
+# Configurações do Ambiente / Chaves
+.env
+*.env
+
+# Docker e Artefatos Locais
+wheels/
+*.whl
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Alembic
+alembic/versions/*.pyc
